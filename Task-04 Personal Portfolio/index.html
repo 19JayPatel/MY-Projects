@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do Something</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Profile Card -->
+      <div class="profile-card">
+        <div class="card-header">
+          <img src="photo.jpg" alt="Profile Picture" class="profile-img" />
+          <h2>Jay Sidapara</h2>
+          <p>Web Developer</p>
+        </div>
+        <div class="card-body">
+          <div class="info">
+            <p>
+              <i class="fas fa-map-marker-alt"></i>&nbsp; &nbsp; Rajkot, India
+            </p>
+            <p>
+              <i class="fas fa-envelope"></i>&nbsp; &nbsp;jsidapara.js@gmail.com
+            </p>
+            <p><i class="fas fa-phone"></i>&nbsp; +91 94081 56437</p>
+          </div>
+          <div class="skills">
+            <h3>Skills</h3>
+            <div class="skill">
+              <span>HTML</span>
+              <div class="progress-bar" data-value="90%"></div>
+            </div>
+            <div class="skill">
+              <span>CSS</span>
+              <div class="progress-bar" data-value="80%"></div>
+            </div>
+            <div class="skill">
+              <span>JavaScript</span>
+              <div class="progress-bar" data-value="75%"></div>
+            </div>
+            <div class="skill">
+              <span>Java</span>
+              <div class="progress-bar" data-value="80%"></div>
+            </div>
+          </div>
+          <div class="languages">
+            <h3>Languages</h3>
+            <div class="skill">
+              <span>English</span>
+              <div class="progress-bar" data-value="80%"></div>
+            </div>
+            <div class="skill">
+              <span>Hindi</span>
+              <div class="progress-bar" data-value="70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education Section -->
+      <div class="Education">
+        <h2>Education</h2>
+        <div class="education-item">
+          <h3>
+            High-School:
+            <p>Matu Shree L.G. Dholakiya School</p>
+          </h3>
+          <p class="date">Year: 2023</p>
+        </div>
+        <div class="education-item">
+          <h3>University:</h3>
+          <p>RK University</p>
+          <p class="date">2023 - 2026</p>
+          <p class="degree">Bachelor Degree</p>
+        </div>
+      </div>
+    </div>
+    <!-- Work Experience Section -->
+    <div class="experience">
+      <h2><i class="fas fa-briefcase"></i>&nbsp;Work Experience</h2>
+      <div class="experience-item">
+        <h3>Full Stack Developer</h3>
+        <h3>Year of Experience:</h3>
+        <p>1.5+ Year</p>
+      </div>
+      <div class="experience-item">
+        <h3>Satisfied Clients:</h3>
+        <p>50+ Clients</p>
+      </div>
+      <div class="experience-item">
+        <h3>Working Hours:</h3>
+        <p>180+ Hours</p>
+      </div>
+      <div class="experience-item">
+        <h3>Certificates Won:</h3>
+        <p>5+ Certificates</p>
+      </div>
+    </div>
+    <!--Project Section-->
+    <h2 class="p">Projects:</h2>
+
+    <section class="project">
+        <div class="project1">
+          <h3>Project 1</h3>
+          <p>Cloathing Website</p>
+          <button id="prbtn" onclick="opensite()">Click Here</button>
+        </div>
+        <div class="project1">
+          <h3>Project 2</h3>
+          <p>Tic Tac Toe</p>
+          <button id="prbtn" onclick="openp1()">Click Here</button>
+        </div>
+        <div class="project1">
+          <h3>Project 3</h3>
+          <p>Stopwatch</p>
+          <button id="prbtn" onclick="openp2()">Click Here</button>
+        </div>
+        <div class="project1">
+          <h3>Project 4</h3>
+          <p>Weather App</p>
+          <button id="prbtn" onclick="openp3()">Click Here</button>
+        </div>
+    </section>
+    <!--contact Us-->
+
+      <h2 class="p">Contact Us:</h2>
+      <section id="contact">
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+      <footer>
+        <p>&copy; 2023 Do Something. All rights reserved.</p>
+      </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
